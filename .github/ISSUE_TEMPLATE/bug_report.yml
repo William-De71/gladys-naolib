@@ -1,0 +1,49 @@
+name: Bug report
+description: Something does not work as described in the documentation.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. The logs name the stops and lines you follow, nothing else about you.
+  - type: input
+    id: gladys-version
+    attributes:
+      label: Gladys version
+      description: Settings → System.
+      placeholder: '5.1.1'
+    validations:
+      required: true
+  - type: input
+    id: integration-version
+    attributes:
+      label: Integration version
+      description: Integrations → Naolib Montpellier, or Settings → Supervision.
+      placeholder: '0.1.0'
+    validations:
+      required: true
+  - type: input
+    id: stop
+    attributes:
+      label: Stop or line
+      description: 'The stop (as typed: name or id), its line and direction, or the line concerned.'
+      placeholder: 'Chamars, T1, Chalezeule'
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Press the **Diagnostic** button of the configuration, then copy the lines starting with “Naolib diagnostic” from the Logs tab of the integration. In developer mode, the environment variable `DEBUG=gladys-integration-sdk` adds the SDK debug logs.
+      render: text

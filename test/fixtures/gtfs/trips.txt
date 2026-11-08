@@ -1,0 +1,355 @@
+route_id,service_id,trip_id,trip_headsign,direction_id
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647301-CR_26_27-HS27BA17-Dimanche-00,Le Cardo,0
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647311-CR_26_27-HS27BA17-Dimanche-00,Le Cardo,0
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647312-CR_26_27-HS27BA17-Dimanche-00,Gare Sud,1
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647313-CR_26_27-HS27BA17-Dimanche-00,Gare Sud,1
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647324-CR_26_27-HS27BA17-Dimanche-00,Gare Sud,1
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647333-CR_26_27-HS27BA17-Dimanche-00,Gare Sud,1
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647334-CR_26_27-HS27BA17-Dimanche-00,Le Cardo,0
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647335-CR_26_27-HS27BA17-Dimanche-00,Le Cardo,0
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647354-CR_26_27-HS27BA17-Dimanche-00,Le Cardo,0
+FR_NAOLIB:Line:C2,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49647355-CR_26_27-HS27BA17-Dimanche-00,Gare Sud,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648534-CR_26_27-HS27BA17-Dimanche-00,Bd de Doulon,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648535-CR_26_27-HS27BA17-Dimanche-00,Bio Ouest Laënnec,0
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648536-CR_26_27-HS27BA17-Dimanche-00,Bio Ouest Laënnec,0
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648537-CR_26_27-HS27BA17-Dimanche-00,Bd de Doulon,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648550-CR_26_27-HS27BA17-Dimanche-00,Bio Ouest Laënnec,0
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648551-CR_26_27-HS27BA17-Dimanche-00,Bd de Doulon,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648585-CR_26_27-HS27BA17-Dimanche-00,Bd de Doulon,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648590-CR_26_27-HS27BA17-Dimanche-00,Bd de Doulon,1
+FR_NAOLIB:Line:C3,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49648597-CR_26_27-HS27BA17-Dimanche-00,Bio Ouest Laënnec,0
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649815-CR_26_27-HS27BA17-Dimanche-00,Marcel Paul,0
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649816-CR_26_27-HS27BA17-Dimanche-00,Saupin,1
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649818-CR_26_27-HS27BA17-Dimanche-00,Saupin,1
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649819-CR_26_27-HS27BA17-Dimanche-00,Saupin,1
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649820-CR_26_27-HS27BA17-Dimanche-00,Saupin,1
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649821-CR_26_27-HS27BA17-Dimanche-00,Saupin,1
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649841-CR_26_27-HS27BA17-Dimanche-00,Marcel Paul,0
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649842-CR_26_27-HS27BA17-Dimanche-00,Marcel Paul,0
+FR_NAOLIB:Line:C8,FR_NAOLIB:Timetable:CR_26_27-HS27BA17-Dimanche-00,FR_NAOLIB:VehicleJourney:49649843-CR_26_27-HS27BA17-Dimanche-00,Marcel Paul,0
+FR_NAOLIB:Line:23,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49661318-CR_26_27-HD27BAA7-Dimanche-03,Mendès France - Bellevue,1
+FR_NAOLIB:Line:23,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49661321-CR_26_27-HD27BAA7-Dimanche-03,Mendès France - Bellevue,1
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662469-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,1
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662476-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,1
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662477-CR_26_27-MD27ORA6-Samedi-00,Souchais,0
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662478-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,1
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662479-CR_26_27-MD27ORA6-Samedi-00,Souchais,0
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662482-CR_26_27-MD27ORA6-Samedi-00,Souchais,0
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662483-CR_26_27-MD27ORA6-Samedi-00,Souchais,0
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:49662485-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,1
+FR_NAOLIB:Line:85,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49662665-CR_26_27-HD27BAA7-Dimanche-03,Souchais,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665395-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665397-CR_26_27-HD27BAA7-Dimanche-03,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665399-CR_26_27-HD27BAA7-Dimanche-03,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665402-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665409-CR_26_27-HD27BAA7-Dimanche-03,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665410-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665412-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665415-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665423-CR_26_27-HD27BAA7-Dimanche-03,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665424-CR_26_27-HD27BAA7-Dimanche-03,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49665435-CR_26_27-HD27BAA7-Dimanche-03,Gare de Chantenay,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666021-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666039-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666042-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666043-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666044-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666045-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666046-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666047-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666049-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666050-CR_26_27-HT27BA27-Dimanche-02,Porte de Vertou,1
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666051-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49666164-CR_26_27-HT27BA27-Dimanche-02,Foch - Cathédrale,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669340-CR_26_27-HD27BAA7-Dimanche-03,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669375-CR_26_27-HD27BAA7-Dimanche-03,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669377-CR_26_27-HD27BAA7-Dimanche-03,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669378-CR_26_27-HD27BAA7-Dimanche-03,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669412-CR_26_27-HD27BAA7-Dimanche-03,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669413-CR_26_27-HD27BAA7-Dimanche-03,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-HD27BAA7-Dimanche-03,FR_NAOLIB:VehicleJourney:49669414-CR_26_27-HD27BAA7-Dimanche-03,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49673537-CR_26_27-HT27BA27-Dimanche-02,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49673538-CR_26_27-HT27BA27-Dimanche-02,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49673568-CR_26_27-HT27BA27-Dimanche-02,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49673569-CR_26_27-HT27BA27-Dimanche-02,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49673570-CR_26_27-HT27BA27-Dimanche-02,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49673979-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49673980-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49673983-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49673984-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49673994-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674095-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674096-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674115-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674126-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674129-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674130-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674152-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674154-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674167-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674172-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674173-CR_26_27-MT27OR26-Samedi-00,Les Sorinières,0
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674174-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C4,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49674195-CR_26_27-MT27OR26-Samedi-00,Greneraie,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675253-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675259-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675260-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675261-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675262-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675263-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675264-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675265-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675266-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675267-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675268-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675269-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675270-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675271-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675272-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675273-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675275-CR_26_27-MT27OR26-Samedi-00,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49675276-CR_26_27-MT27OR26-Samedi-00,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741050-CR_26_27-HT27BA27-Dimanche-02,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741051-CR_26_27-HT27BA27-Dimanche-02,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741068-CR_26_27-HT27BA27-Dimanche-02,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741086-CR_26_27-HT27BA27-Dimanche-02,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741104-CR_26_27-HT27BA27-Dimanche-02,Pirmil,1
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741123-CR_26_27-HT27BA27-Dimanche-02,Basse Goulaine / Chalonges,0
+FR_NAOLIB:Line:C9,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49741124-CR_26_27-HT27BA27-Dimanche-02,Pirmil,1
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49836146-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49836147-CR_26_27-MT27OR26-Samedi-00,Aéroport,1
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49836148-CR_26_27-MT27OR26-Samedi-00,Aéroport,1
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49836149-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:49836150-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49836206-CR_26_27-HT27BA27-Dimanche-02,Greneraie,0
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49836207-CR_26_27-HT27BA27-Dimanche-02,Aéroport,1
+FR_NAOLIB:Line:38,FR_NAOLIB:Timetable:CR_26_27-HT27BA27-Dimanche-02,FR_NAOLIB:VehicleJourney:49836208-CR_26_27-HT27BA27-Dimanche-02,Aéroport,1
+FR_NAOLIB:Line:27,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:50311571-CR_26_27-BA27OR26-Samedi-04,La Herdrie,0
+FR_NAOLIB:Line:27,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:50311572-CR_26_27-BA27OR26-Samedi-04,Pirmil,1
+FR_NAOLIB:Line:42,FR_NAOLIB:Timetable:CR_26_27-BA27BA27-Dimanche-04,FR_NAOLIB:VehicleJourney:50341940-CR_26_27-BA27BA27-Dimanche-04,Vertou,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601318-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601319-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601320-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601321-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601322-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601323-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601324-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601325-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601326-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601629-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601630-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601631-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601632-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601633-CR_26_27-BW27BA17-Dimanche-02,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601634-CR_26_27-BW27BA17-Dimanche-02,Neustrie,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601923-CR_26_27-BW27BA17-Dimanche-02,Gare de Pont Rousseau,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601925-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601926-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601927-CR_26_27-BW27BA17-Dimanche-02,Gare de Pont Rousseau,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601928-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601929-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601930-CR_26_27-BW27BA17-Dimanche-02,Gare de Pont Rousseau,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601931-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601932-CR_26_27-BW27BA17-Dimanche-02,Gare de Pont Rousseau,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601933-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601934-CR_26_27-BW27BA17-Dimanche-02,Gare de Pont Rousseau,1
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601935-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:2,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:50601937-CR_26_27-BW27BA17-Dimanche-02,Orvault Grand Val,0
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304292-CR_26_27-BA27OR26-Samedi-04,Vertou,0
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304296-CR_26_27-BA27OR26-Samedi-04,Vertou,0
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304297-CR_26_27-BA27OR26-Samedi-04,Vertou,0
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304298-CR_26_27-BA27OR26-Samedi-04,Pirmil,1
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304300-CR_26_27-BA27OR26-Samedi-04,Vertou,0
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304302-CR_26_27-BA27OR26-Samedi-04,Pirmil,1
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304304-CR_26_27-BA27OR26-Samedi-04,Pirmil,1
+FR_NAOLIB:Line:28,FR_NAOLIB:Timetable:CR_26_27-BA27OR26-Samedi-04,FR_NAOLIB:VehicleJourney:51304305-CR_26_27-BA27OR26-Samedi-04,Pirmil,1
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341573-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341581-CR_26_27-MT27OR26-Samedi-00,Croix Jeannette,1
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341582-CR_26_27-MT27OR26-Samedi-00,Croix Jeannette,1
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341583-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341590-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341604-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341605-CR_26_27-MT27OR26-Samedi-00,Croix Jeannette,1
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341606-CR_26_27-MT27OR26-Samedi-00,Greneraie,0
+FR_NAOLIB:Line:36,FR_NAOLIB:Timetable:CR_26_27-MT27OR26-Samedi-00,FR_NAOLIB:VehicleJourney:53341607-CR_26_27-MT27OR26-Samedi-00,Croix Jeannette,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748474-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748475-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748477-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748481-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748482-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748484-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748486-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748488-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53748490-CR_26_27-MD27ORA6-Samedi-00,Gare de Chantenay,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761555-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761558-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761567-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761611-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761621-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761638-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761667-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761668-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761672-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53761680-CR_26_27-MD27ORA6-Samedi-00,Hermeland,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812816-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812817-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812818-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812820-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812866-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812867-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812868-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812922-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812923-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812924-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812925-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812926-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812979-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812981-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53812982-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53813029-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53813034-CR_26_27-BW27BA17-Dimanche-02,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-BW27BA17-Dimanche-02,FR_NAOLIB:VehicleJourney:53813046-CR_26_27-BW27BA17-Dimanche-02,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819126-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819129-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819130-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819131-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819132-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819133-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819134-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819135-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819292-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819293-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819294-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819295-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819296-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819297-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819298-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819299-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819300-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819301-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819467-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819468-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819470-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819471-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819472-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819473-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819474-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819475-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819476-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819477-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819478-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819479-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819480-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819481-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819482-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819483-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819569-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819570-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53819571-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821457-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821463-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821791-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821794-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821796-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821799-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821801-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821803-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821805-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821807-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821809-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821811-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821814-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53821817-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822412-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822413-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822414-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822415-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822416-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822417-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822418-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822419-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822420-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822421-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:C1,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53822422-CR_26_27-MD27ORA6-Samedi-00,Haluchère - Batignolles,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822467-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822468-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822471-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822473-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822501-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822548-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822550-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822553-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822554-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822582-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822621-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822622-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822640-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822656-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822671-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822674-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822675-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53822677-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824539-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824540-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824541-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824542-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824543-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824544-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824545-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824546-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824547-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824548-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:C6,FR_NAOLIB:Timetable:CR_26_27-MD27ORA6-Samedi-00,FR_NAOLIB:VehicleJourney:53824549-CR_26_27-MD27ORA6-Samedi-00,Chantrerie - Grandes Ecoles,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53825183-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53825187-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53825189-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53825191-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53827509-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53827513-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53827514-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53827516-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53827518-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832082-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832095-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832096-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832145-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832148-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53832155-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53836069-CR_26_27-MW27OR16-Samedi-01,François Mitterrand / Jamet,0
+FR_NAOLIB:Line:1,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53836070-CR_26_27-MW27OR16-Samedi-01,Beaujoire / Babinière,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840846-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840848-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840849-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840850-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840851-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840852-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840853-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840854-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840855-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840856-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840857-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840858-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840859-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840860-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840861-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840862-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840863-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840864-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840865-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840866-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840867-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840868-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840869-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840870-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840871-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840872-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840873-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840874-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840875-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840876-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840877-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840878-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840879-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840880-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840881-CR_26_27-MW27OR16-Samedi-01,Neustrie,1
+FR_NAOLIB:Line:3,FR_NAOLIB:Timetable:CR_26_27-MW27OR16-Samedi-01,FR_NAOLIB:VehicleJourney:53840882-CR_26_27-MW27OR16-Samedi-01,Marcel Paul,0

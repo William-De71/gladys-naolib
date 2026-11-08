@@ -1,0 +1,7 @@
+# LF everywhere: Prettier and the release script expect it.
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+# GTFS-RT feeds (Protocol Buffers) of the fixtures: bytes, never text.
+*.pb binary
+*.zip binary

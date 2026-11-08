@@ -1,0 +1,1779 @@
+{
+  "manifest_version": 1,
+  "type": "device",
+  "name": "Naolib Nantes",
+  "description": {
+    "en": "Nantes trams and buses (Naolib): real-time departures, delays, line traffic.",
+    "fr": "Trams et bus de Nantes (Naolib) : départs en temps réel, retards, trafic des lignes.",
+    "de": "Trams und Busse in Nantes (Naolib): Echtzeit-Abfahrten, Verspätungen, Verkehrslage.",
+    "es": "Tranvías y autobuses de Nantes (Naolib): salidas en tiempo real, retrasos, tráfico."
+  },
+  "version": "0.1.0",
+  "docker_image": "ghcr.io/william-de71/gladys-naolib:0.1.0",
+  "gladys_version": ">=5.3.0",
+  "categories": ["transport"],
+  "keywords": [
+    "nantes",
+    "naolib",
+    "tan",
+    "semitan",
+    "tram",
+    "busway",
+    "chronobus",
+    "navibus",
+    "bus",
+    "loire-atlantique"
+  ],
+  "countries": ["FR"],
+  "cover_image": "https://raw.githubusercontent.com/William-De71/gladys-naolib/main/cover.jpg",
+  "transports": ["cloud"],
+  "config_schema": [
+    {
+      "key": "intro",
+      "type": "section",
+      "label": {
+        "en": "Naolib open data",
+        "fr": "Open data Naolib",
+        "de": "Naolib Open Data",
+        "es": "Datos abiertos de Naolib"
+      },
+      "description": {
+        "en": "The departures and the traffic come from the official open data of Naolib, the trams and buses of Nantes Métropole: the timetable (GTFS) and the real time (GTFS-RT) of the whole network (trams, busways, Chronobus, buses, Navibus). No account and no key: fill in your stops and lines below, then press \"Test the connection\".",
+        "fr": "Les départs et le trafic viennent de l’open data officiel de Naolib, les trams et bus de Nantes Métropole : les horaires (GTFS) et le temps réel (GTFS-RT) de tout le réseau (trams, busways, Chronobus, bus, Navibus). Ni compte ni clé : renseignez vos arrêts et vos lignes ci-dessous, puis appuyez sur « Tester la connexion ».",
+        "de": "Die Abfahrten und die Verkehrslage stammen aus den offiziellen Open Data von Naolib, den Trams und Bussen von Nantes Métropole: Fahrplan (GTFS) und Echtzeit (GTFS-RT) des gesamten Netzes (Trams, Busways, Chronobus, Busse, Navibus). Kein Konto und kein Schlüssel: Trage unten deine Haltestellen und Linien ein und drücke dann „Verbindung testen“.",
+        "es": "Las salidas y el tráfico proceden de los datos abiertos oficiales de Naolib, los tranvías y autobuses de Nantes Métropole: los horarios (GTFS) y el tiempo real (GTFS-RT) de toda la red (tranvías, busways, Chronobus, autobuses, Navibus). Sin cuenta ni clave: rellena tus paradas y líneas abajo y pulsa «Probar la conexión»."
+      },
+      "links": [
+        {
+          "url": "https://transport.data.gouv.fr/datasets/reseau-de-transports-collectifs-naolib",
+          "label": {
+            "en": "Naolib open data (transport.data.gouv.fr)",
+            "fr": "Open data Naolib (transport.data.gouv.fr)",
+            "de": "Naolib Open Data (transport.data.gouv.fr)",
+            "es": "Datos abiertos de Naolib (transport.data.gouv.fr)"
+          }
+        },
+        {
+          "url": "https://www.naolib.fr/",
+          "label": {
+            "en": "naolib.fr",
+            "fr": "naolib.fr",
+            "de": "naolib.fr",
+            "es": "naolib.fr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "stop_1_section",
+      "type": "section",
+      "label": {
+        "en": "Stop 1",
+        "fr": "Arrêt 1",
+        "de": "Haltestelle 1",
+        "es": "Parada 1"
+      },
+      "description": {
+        "en": "The stop where you take the tram or the bus: its next departures, from the timetable corrected in real time, with their delay. Type its name as written on the stop (\"Commerce\", \"Gare Nord - Jardin des Plantes\"): the \"Find a stop\" button gives them. The line keeps only its departures (\"1\", \"C1\", \"4\"). The direction keeps only the destinations holding these words (\"Gare Sud\", \"Beaujoire | Ranzay\").",
+        "fr": "L’arrêt où vous prenez le tram ou le bus : ses prochains départs, d’après les horaires corrigés en temps réel, avec leur retard. Saisissez son nom tel qu’écrit à l’arrêt (« Commerce », « Gare Nord - Jardin des Plantes ») : le bouton « Chercher un arrêt » les donne. La ligne ne garde que ses départs (« 1 », « C1 », « 4 »). La direction ne garde que les destinations qui contiennent ces mots (« Gare Sud », « Beaujoire | Ranzay »).",
+        "de": "Die Haltestelle, an der du die Tram oder den Bus nimmst: ihre nächsten Abfahrten nach dem in Echtzeit korrigierten Fahrplan, mit ihrer Verspätung. Gib ihren Namen so ein, wie er an der Haltestelle steht („Commerce“, „Gare Nord - Jardin des Plantes“): Die Schaltfläche „Haltestelle suchen“ liefert sie. Die Linie behält nur ihre Abfahrten („1“, „C1“, „4“). Die Richtung behält nur die Ziele mit diesen Wörtern („Gare Sud“, „Beaujoire | Ranzay“).",
+        "es": "La parada donde tomas el tranvía o el autobús: sus próximas salidas, según el horario corregido en tiempo real, con su retraso. Escribe su nombre tal como aparece en la parada («Commerce», «Gare Nord - Jardin des Plantes»): el botón «Buscar una parada» los da. La línea solo conserva sus salidas («1», «C1», «4»). La dirección solo conserva los destinos que contienen estas palabras («Gare Sud», «Beaujoire | Ranzay»)."
+      }
+    },
+    {
+      "key": "stop_1",
+      "type": "string",
+      "label": {
+        "en": "Stop",
+        "fr": "Arrêt",
+        "de": "Haltestelle",
+        "es": "Parada"
+      },
+      "placeholder": {
+        "en": "Commerce",
+        "fr": "Commerce",
+        "de": "Commerce",
+        "es": "Commerce"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_1_line",
+      "type": "string",
+      "label": {
+        "en": "Line",
+        "fr": "Ligne",
+        "de": "Linie",
+        "es": "Línea"
+      },
+      "description": {
+        "en": "Empty for every line.",
+        "fr": "Vide pour toutes les lignes.",
+        "de": "Leer für alle Linien.",
+        "es": "Vacío para todas las líneas."
+      },
+      "placeholder": {
+        "en": "1",
+        "fr": "1",
+        "de": "1",
+        "es": "1"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_1_direction",
+      "type": "string",
+      "label": {
+        "en": "Direction",
+        "fr": "Direction",
+        "de": "Richtung",
+        "es": "Dirección"
+      },
+      "description": {
+        "en": "Words of the destination. Empty for both directions.",
+        "fr": "Des mots de la destination. Vide pour les deux sens.",
+        "de": "Wörter des Ziels. Leer für beide Richtungen.",
+        "es": "Palabras del destino. Vacío para ambos sentidos."
+      },
+      "placeholder": {
+        "en": "Gare Sud",
+        "fr": "Gare Sud",
+        "de": "Gare Sud",
+        "es": "Gare Sud"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_2_section",
+      "type": "section",
+      "label": {
+        "en": "Stop 2",
+        "fr": "Arrêt 2",
+        "de": "Haltestelle 2",
+        "es": "Parada 2"
+      }
+    },
+    {
+      "key": "stop_2",
+      "type": "string",
+      "label": {
+        "en": "Stop",
+        "fr": "Arrêt",
+        "de": "Haltestelle",
+        "es": "Parada"
+      },
+      "placeholder": {
+        "en": "Gare Nord - Jardin des Plantes",
+        "fr": "Gare Nord - Jardin des Plantes",
+        "de": "Gare Nord - Jardin des Plantes",
+        "es": "Gare Nord - Jardin des Plantes"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_2_line",
+      "type": "string",
+      "label": {
+        "en": "Line",
+        "fr": "Ligne",
+        "de": "Linie",
+        "es": "Línea"
+      },
+      "description": {
+        "en": "Empty for every line.",
+        "fr": "Vide pour toutes les lignes.",
+        "de": "Leer für alle Linien.",
+        "es": "Vacío para todas las líneas."
+      },
+      "placeholder": {
+        "en": "2",
+        "fr": "2",
+        "de": "2",
+        "es": "2"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_2_direction",
+      "type": "string",
+      "label": {
+        "en": "Direction",
+        "fr": "Direction",
+        "de": "Richtung",
+        "es": "Dirección"
+      },
+      "description": {
+        "en": "Words of the destination. Empty for both directions.",
+        "fr": "Des mots de la destination. Vide pour les deux sens.",
+        "de": "Wörter des Ziels. Leer für beide Richtungen.",
+        "es": "Palabras del destino. Vacío para ambos sentidos."
+      },
+      "placeholder": {
+        "en": "Orvault",
+        "fr": "Orvault",
+        "de": "Orvault",
+        "es": "Orvault"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_3_section",
+      "type": "section",
+      "label": {
+        "en": "Stop 3",
+        "fr": "Arrêt 3",
+        "de": "Haltestelle 3",
+        "es": "Parada 3"
+      },
+      "description": {
+        "en": "More stops (a home, a workplace, a school…): the \"Add a stop\" button, under the form, follows up to 10 more, \"List the stops\" shows them all, numbered, and \"Remove a stop\" stops following one. The real time of every stop comes in one request.",
+        "fr": "D’autres arrêts (domicile, travail, école…) : le bouton « Ajouter un arrêt », sous le formulaire, en suit jusqu’à 10 de plus, « Lister les arrêts » les montre tous, numérotés, et « Retirer un arrêt » arrête d’en suivre un. Le temps réel de tous les arrêts arrive en une seule requête.",
+        "de": "Weitere Haltestellen (Zuhause, Arbeit, Schule…): Die Schaltfläche „Haltestelle hinzufügen“ unter dem Formular verfolgt bis zu 10 weitere, „Haltestellen auflisten“ zeigt alle nummeriert, und „Haltestelle entfernen“ beendet die Verfolgung einer Haltestelle. Die Echtzeit aller Haltestellen kommt in einer einzigen Anfrage.",
+        "es": "Más paradas (casa, trabajo, colegio…): el botón «Añadir una parada», bajo el formulario, sigue hasta 10 más, «Listar las paradas» las muestra todas, numeradas, y «Quitar una parada» deja de seguir una. El tiempo real de todas las paradas llega en una sola petición."
+      }
+    },
+    {
+      "key": "stop_3",
+      "type": "string",
+      "label": {
+        "en": "Stop",
+        "fr": "Arrêt",
+        "de": "Haltestelle",
+        "es": "Parada"
+      },
+      "placeholder": {
+        "en": "Haluchère",
+        "fr": "Haluchère",
+        "de": "Haluchère",
+        "es": "Haluchère"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_3_line",
+      "type": "string",
+      "label": {
+        "en": "Line",
+        "fr": "Ligne",
+        "de": "Linie",
+        "es": "Línea"
+      },
+      "description": {
+        "en": "Empty for every line.",
+        "fr": "Vide pour toutes les lignes.",
+        "de": "Leer für alle Linien.",
+        "es": "Vacío para todas las líneas."
+      },
+      "placeholder": {
+        "en": "C1",
+        "fr": "C1",
+        "de": "C1",
+        "es": "C1"
+      },
+      "required": false
+    },
+    {
+      "key": "stop_3_direction",
+      "type": "string",
+      "label": {
+        "en": "Direction",
+        "fr": "Direction",
+        "de": "Richtung",
+        "es": "Dirección"
+      },
+      "description": {
+        "en": "Words of the destination. Empty for both directions.",
+        "fr": "Des mots de la destination. Vide pour les deux sens.",
+        "de": "Wörter des Ziels. Leer für beide Richtungen.",
+        "es": "Palabras del destino. Vacío para ambos sentidos."
+      },
+      "placeholder": {
+        "en": "Pirmil",
+        "fr": "Pirmil",
+        "de": "Pirmil",
+        "es": "Pirmil"
+      },
+      "required": false
+    },
+    {
+      "key": "lines_section",
+      "type": "section",
+      "label": {
+        "en": "Traffic of the lines",
+        "fr": "Trafic des lignes",
+        "de": "Verkehrslage der Linien",
+        "es": "Tráfico de las líneas"
+      },
+      "description": {
+        "en": "The lines whose traffic you follow: a device per line, with its state (normal, traffic information, disrupted, heavily disrupted) worked out from the alerts of Naolib, and its traffic messages (works, diversions, stops not served), read every 5 minutes.",
+        "fr": "Les lignes dont vous suivez le trafic : un appareil par ligne, avec son état (normal, info trafic, perturbé, très perturbé) déduit des alertes de Naolib, et ses messages trafic (travaux, déviations, arrêts non desservis), lus toutes les 5 minutes.",
+        "de": "Die Linien, deren Verkehrslage du verfolgst: ein Gerät pro Linie, mit ihrem Zustand (normal, Verkehrsinformation, gestört, stark gestört) aus den Meldungen von Naolib und ihren Verkehrsmeldungen (Bauarbeiten, Umleitungen, nicht bediente Haltestellen), alle 5 Minuten gelesen.",
+        "es": "Las líneas cuyo tráfico sigues: un dispositivo por línea, con su estado (normal, aviso de tráfico, alterado, muy alterado) deducido de las alertas de Naolib, y sus avisos de tráfico (obras, desvíos, paradas sin servicio), leídos cada 5 minutos."
+      }
+    },
+    {
+      "key": "lines",
+      "type": "string",
+      "label": {
+        "en": "Followed lines",
+        "fr": "Lignes suivies",
+        "de": "Verfolgte Linien",
+        "es": "Líneas seguidas"
+      },
+      "description": {
+        "en": "Up to 6, separated by commas.",
+        "fr": "Jusqu’à 6, séparées par des virgules.",
+        "de": "Bis zu 6, durch Kommas getrennt.",
+        "es": "Hasta 6, separadas por comas."
+      },
+      "placeholder": {
+        "en": "1, 2, C1, 4",
+        "fr": "1, 2, C1, 4",
+        "de": "1, 2, C1, 4",
+        "es": "1, 2, C1, 4"
+      },
+      "required": false
+    },
+    {
+      "key": "options_section",
+      "type": "section",
+      "label": {
+        "en": "Options",
+        "fr": "Options",
+        "de": "Optionen",
+        "es": "Opciones"
+      }
+    },
+    {
+      "key": "interval",
+      "type": "select",
+      "label": {
+        "en": "Reading of the real time",
+        "fr": "Lecture du temps réel",
+        "de": "Lesen der Echtzeit",
+        "es": "Lectura del tiempo real"
+      },
+      "description": {
+        "en": "How often the real time of the network is read: one request for every followed stop. While no stop announces anything in the next half hour (at night), every 10 minutes. The timetable is read once a day.",
+        "fr": "À quelle fréquence le temps réel du réseau est lu : une seule requête pour tous les arrêts suivis. Quand aucun arrêt n’annonce rien dans la demi-heure (la nuit), toutes les 10 minutes. Les horaires sont lus une fois par jour.",
+        "de": "Wie oft die Echtzeit des Netzes gelesen wird: eine einzige Anfrage für alle verfolgten Haltestellen. Solange keine Haltestelle in der nächsten halben Stunde etwas ankündigt (nachts), alle 10 Minuten. Der Fahrplan wird einmal am Tag gelesen.",
+        "es": "Con qué frecuencia se lee el tiempo real de la red: una sola petición para todas las paradas seguidas. Mientras ninguna parada anuncie nada en la próxima media hora (de noche), cada 10 minutos. El horario se lee una vez al día."
+      },
+      "options": [
+        {
+          "value": "30",
+          "label": {
+            "en": "Every 30 seconds",
+            "fr": "Toutes les 30 secondes",
+            "de": "Alle 30 Sekunden",
+            "es": "Cada 30 segundos"
+          }
+        },
+        {
+          "value": "60",
+          "label": {
+            "en": "Every minute",
+            "fr": "Toutes les minutes",
+            "de": "Jede Minute",
+            "es": "Cada minuto"
+          }
+        },
+        {
+          "value": "120",
+          "label": {
+            "en": "Every 2 minutes",
+            "fr": "Toutes les 2 minutes",
+            "de": "Alle 2 Minuten",
+            "es": "Cada 2 minutos"
+          }
+        },
+        {
+          "value": "300",
+          "label": {
+            "en": "Every 5 minutes",
+            "fr": "Toutes les 5 minutes",
+            "de": "Alle 5 Minuten",
+            "es": "Cada 5 minutos"
+          }
+        }
+      ],
+      "default": "60",
+      "required": false
+    },
+    {
+      "key": "language",
+      "type": "select",
+      "label": {
+        "en": "Language of the texts",
+        "fr": "Langue des textes",
+        "de": "Sprache der Texte",
+        "es": "Idioma de los textos"
+      },
+      "description": {
+        "en": "Names of the devices, summaries and outputs of the scenes. Automatic: the language of your dashboard, as soon as a Naolib widget has been shown. Stop names and traffic messages stay in French.",
+        "fr": "Noms des appareils, résumés et sorties des scènes. Automatique : la langue de votre tableau de bord, dès qu’un widget Naolib a été affiché. Les noms d’arrêts et les messages trafic restent en français.",
+        "de": "Namen der Geräte, Zusammenfassungen und Ausgaben der Szenen. Automatisch: die Sprache deines Dashboards, sobald ein Naolib-Widget angezeigt wurde. Haltestellennamen und Verkehrsmeldungen bleiben auf Französisch.",
+        "es": "Nombres de los dispositivos, resúmenes y salidas de las escenas. Automático: el idioma de tu panel, en cuanto se haya mostrado un widget de Naolib. Los nombres de paradas y los mensajes de tráfico quedan en francés."
+      },
+      "options": [
+        {
+          "value": "auto",
+          "label": {
+            "en": "Automatic",
+            "fr": "Automatique",
+            "de": "Automatisch",
+            "es": "Automático"
+          }
+        },
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "fr": "English",
+            "de": "English",
+            "es": "English"
+          }
+        },
+        {
+          "value": "fr",
+          "label": {
+            "en": "Français",
+            "fr": "Français",
+            "de": "Français",
+            "es": "Français"
+          }
+        },
+        {
+          "value": "de",
+          "label": {
+            "en": "Deutsch",
+            "fr": "Deutsch",
+            "de": "Deutsch",
+            "es": "Deutsch"
+          }
+        },
+        {
+          "value": "es",
+          "label": {
+            "en": "Español",
+            "fr": "Español",
+            "de": "Español",
+            "es": "Español"
+          }
+        }
+      ],
+      "default": "auto",
+      "required": false
+    }
+  ],
+  "actions": [
+    {
+      "key": "test_connection",
+      "label": {
+        "en": "Test the connection",
+        "fr": "Tester la connexion",
+        "de": "Verbindung testen",
+        "es": "Probar la conexión"
+      },
+      "description": {
+        "en": "Asks for the timetable again (downloaded only when it changed), finds your stops and lines and reads them right away.",
+        "fr": "Redemande les horaires (téléchargés seulement s’ils ont changé), retrouve vos arrêts et vos lignes et les lit aussitôt.",
+        "de": "Fragt den Fahrplan erneut ab (nur heruntergeladen, wenn er sich geändert hat), findet deine Haltestellen und Linien und liest sie sofort.",
+        "es": "Vuelve a pedir el horario (solo se descarga si cambió), encuentra tus paradas y líneas y las lee al momento."
+      },
+      "timeout_seconds": 60
+    },
+    {
+      "key": "search_stop",
+      "label": {
+        "en": "Find a stop",
+        "fr": "Chercher un arrêt",
+        "de": "Haltestelle suchen",
+        "es": "Buscar una parada"
+      },
+      "description": {
+        "en": "Gives the stops holding these words, with their code and their lines.",
+        "fr": "Donne les arrêts qui contiennent ces mots, avec leur code et leurs lignes.",
+        "de": "Liefert die Haltestellen mit diesen Wörtern, mit ihrem Code und ihren Linien.",
+        "es": "Da las paradas que contienen estas palabras, con su código y sus líneas."
+      },
+      "timeout_seconds": 30,
+      "fields": [
+        {
+          "key": "query",
+          "type": "string",
+          "label": {
+            "en": "Stop name",
+            "fr": "Nom de l’arrêt",
+            "de": "Name der Haltestelle",
+            "es": "Nombre de la parada"
+          },
+          "placeholder": {
+            "en": "gare",
+            "fr": "gare",
+            "de": "gare",
+            "es": "gare"
+          },
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "add_stop",
+      "label": {
+        "en": "Add a stop",
+        "fr": "Ajouter un arrêt",
+        "de": "Haltestelle hinzufügen",
+        "es": "Añadir una parada"
+      },
+      "description": {
+        "en": "Follows one more stop, beyond the three of the form: up to 10 more. Its device is then offered in the Discover tab.",
+        "fr": "Suit un arrêt de plus, au-delà des trois du formulaire : jusqu’à 10 de plus. Son appareil est ensuite proposé dans l’onglet Découvrir.",
+        "de": "Verfolgt eine weitere Haltestelle über die drei des Formulars hinaus: bis zu 10 weitere. Ihr Gerät wird danach im Tab Entdecken angeboten.",
+        "es": "Sigue una parada más, además de las tres del formulario: hasta 10 más. Su dispositivo se ofrece después en la pestaña Descubrir."
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "stop",
+          "type": "string",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "Its name, or its code (\"Find a stop\").",
+            "fr": "Son nom, ou son code (« Chercher un arrêt »).",
+            "de": "Ihr Name oder ihr Code („Haltestelle suchen“).",
+            "es": "Su nombre, o su código («Buscar una parada»)."
+          },
+          "placeholder": {
+            "en": "Beaujoire",
+            "fr": "Beaujoire",
+            "de": "Beaujoire",
+            "es": "Beaujoire"
+          },
+          "required": true
+        },
+        {
+          "key": "line",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "Empty for every line.",
+            "fr": "Vide pour toutes les lignes.",
+            "de": "Leer für alle Linien.",
+            "es": "Vacío para todas las líneas."
+          },
+          "placeholder": {
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "es": "3"
+          },
+          "required": false
+        },
+        {
+          "key": "direction",
+          "type": "string",
+          "label": {
+            "en": "Direction",
+            "fr": "Direction",
+            "de": "Richtung",
+            "es": "Dirección"
+          },
+          "description": {
+            "en": "Words of the destination. Empty for both directions.",
+            "fr": "Mots de la destination. Vide pour les deux sens.",
+            "de": "Wörter des Ziels. Leer für beide Richtungen.",
+            "es": "Palabras del destino. Vacío para ambos sentidos."
+          },
+          "placeholder": {
+            "en": "Marcel Paul",
+            "fr": "Marcel Paul",
+            "de": "Marcel Paul",
+            "es": "Marcel Paul"
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "key": "remove_stop",
+      "label": {
+        "en": "Remove a stop",
+        "fr": "Retirer un arrêt",
+        "de": "Haltestelle entfernen",
+        "es": "Quitar una parada"
+      },
+      "description": {
+        "en": "Stops following a stop added with the button. Its device stays in Gladys until you delete it.",
+        "fr": "Arrête de suivre un arrêt ajouté avec le bouton. Son appareil reste dans Gladys jusqu’à ce que vous le supprimiez.",
+        "de": "Beendet das Verfolgen einer mit der Schaltfläche hinzugefügten Haltestelle. Ihr Gerät bleibt in Gladys, bis du es löschst.",
+        "es": "Deja de seguir una parada añadida con el botón. Su dispositivo sigue en Gladys hasta que lo borres."
+      },
+      "timeout_seconds": 30,
+      "fields": [
+        {
+          "key": "stop",
+          "type": "string",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "Its number in \"List the stops\", or its name.",
+            "fr": "Son numéro dans « Lister les arrêts », ou son nom.",
+            "de": "Ihre Nummer in „Haltestellen auflisten“ oder ihr Name.",
+            "es": "Su número en «Listar las paradas», o su nombre."
+          },
+          "placeholder": {
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "es": "4"
+          },
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "list_stops",
+      "label": {
+        "en": "List the stops",
+        "fr": "Lister les arrêts",
+        "de": "Haltestellen auflisten",
+        "es": "Listar las paradas"
+      },
+      "description": {
+        "en": "Shows every followed stop, numbered: the three of the form, then the ones added with the button.",
+        "fr": "Montre tous les arrêts suivis, numérotés : les trois du formulaire, puis ceux ajoutés avec le bouton.",
+        "de": "Zeigt alle verfolgten Haltestellen nummeriert: die drei des Formulars, dann die mit der Schaltfläche hinzugefügten.",
+        "es": "Muestra todas las paradas seguidas, numeradas: las tres del formulario y luego las añadidas con el botón."
+      },
+      "timeout_seconds": 10
+    },
+    {
+      "key": "diagnostic",
+      "label": {
+        "en": "Diagnostic",
+        "fr": "Diagnostic",
+        "de": "Diagnose",
+        "es": "Diagnóstico"
+      },
+      "description": {
+        "en": "Writes to the Logs tab the stops and lines found, the timetable kept, the last departures read, the last errors and the requests made, for a report on GitHub or the forum.",
+        "fr": "Écrit dans l’onglet Journaux les arrêts et lignes trouvés, les horaires gardés, les derniers départs lus, les dernières erreurs et les requêtes faites, pour un signalement sur GitHub ou le forum.",
+        "de": "Schreibt in den Tab Protokolle die gefundenen Haltestellen und Linien, den gespeicherten Fahrplan, die zuletzt gelesenen Abfahrten, die letzten Fehler und die gestellten Anfragen, für eine Meldung auf GitHub oder im Forum.",
+        "es": "Escribe en la pestaña Registros las paradas y líneas encontradas, el horario guardado, las últimas salidas leídas, los últimos errores y las peticiones hechas, para un aviso en GitHub o en el foro."
+      },
+      "timeout_seconds": 10
+    }
+  ],
+  "scene_triggers": [
+    {
+      "key": "departure_soon",
+      "label": {
+        "en": "Naolib: departure soon",
+        "fr": "Naolib : départ bientôt",
+        "de": "Naolib: Abfahrt bald",
+        "es": "Naolib: salida en breve"
+      },
+      "description": {
+        "en": "A tram or bus at a followed stop leaves in N minutes, counted on its real-time estimate.",
+        "fr": "Un tram ou un bus à un arrêt suivi part dans N minutes, compté sur son heure estimée en temps réel.",
+        "de": "Eine Tram oder ein Bus an einer verfolgten Haltestelle fährt in N Minuten, gezählt nach der Echtzeit-Schätzung.",
+        "es": "Un tranvía o autobús en una parada seguida sale dentro de N minutos, contado según su estimación en tiempo real."
+      },
+      "fields": [
+        {
+          "key": "stop",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "A stop device of the integration. Leave empty for any stop.",
+            "fr": "Un appareil arrêt de l’intégration. Laissez vide pour n’importe quel arrêt.",
+            "de": "Ein Haltestellen-Gerät der Integration. Leer lassen für jede Haltestelle.",
+            "es": "Un dispositivo parada de la integración. Déjalo vacío para cualquier parada."
+          },
+          "required": false
+        },
+        {
+          "key": "minutes",
+          "type": "select",
+          "label": {
+            "en": "Leaves in",
+            "fr": "Part dans",
+            "de": "Fährt in",
+            "es": "Sale dentro de"
+          },
+          "options": [
+            {
+              "value": "2",
+              "label": {
+                "en": "2 min",
+                "fr": "2 min",
+                "de": "2 min",
+                "es": "2 min"
+              }
+            },
+            {
+              "value": "3",
+              "label": {
+                "en": "3 min",
+                "fr": "3 min",
+                "de": "3 min",
+                "es": "3 min"
+              }
+            },
+            {
+              "value": "5",
+              "label": {
+                "en": "5 min",
+                "fr": "5 min",
+                "de": "5 min",
+                "es": "5 min"
+              }
+            },
+            {
+              "value": "10",
+              "label": {
+                "en": "10 min",
+                "fr": "10 min",
+                "de": "10 min",
+                "es": "10 min"
+              }
+            },
+            {
+              "value": "15",
+              "label": {
+                "en": "15 min",
+                "fr": "15 min",
+                "de": "15 min",
+                "es": "15 min"
+              }
+            },
+            {
+              "value": "20",
+              "label": {
+                "en": "20 min",
+                "fr": "20 min",
+                "de": "20 min",
+                "es": "20 min"
+              }
+            }
+          ],
+          "required": true
+        }
+      ],
+      "variables": [
+        {
+          "key": "stop_name",
+          "type": "string",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          }
+        },
+        {
+          "key": "line",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "label": {
+            "en": "Destination",
+            "fr": "Destination",
+            "de": "Ziel",
+            "es": "Destino"
+          }
+        },
+        {
+          "key": "time",
+          "type": "string",
+          "label": {
+            "en": "Estimated time (HH:MM)",
+            "fr": "Heure estimée (HH:MM)",
+            "de": "Geschätzte Zeit (HH:MM)",
+            "es": "Hora estimada (HH:MM)"
+          }
+        },
+        {
+          "key": "delay_minutes",
+          "type": "number",
+          "label": {
+            "en": "Delay (min)",
+            "fr": "Retard (min)",
+            "de": "Verspätung (Min.)",
+            "es": "Retraso (min)"
+          },
+          "description": {
+            "en": "0 when on time, or when only the timetable is known.",
+            "fr": "0 à l’heure, ou quand seul l’horaire théorique est connu.",
+            "de": "0 bei Pünktlichkeit oder wenn nur der Fahrplan bekannt ist.",
+            "es": "0 si va a la hora, o si solo se conoce el horario teórico."
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, bereit für eine Nachricht.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    },
+    {
+      "key": "departure_cancelled",
+      "label": {
+        "en": "Naolib: departure cancelled",
+        "fr": "Naolib : départ supprimé",
+        "de": "Naolib: Abfahrt entfällt",
+        "es": "Naolib: salida suprimida"
+      },
+      "description": {
+        "en": "A departure of the next hour at a followed stop is cancelled.",
+        "fr": "Un départ de l’heure à venir à un arrêt suivi est supprimé.",
+        "de": "Eine Abfahrt der nächsten Stunde an einer verfolgten Haltestelle entfällt.",
+        "es": "Una salida de la próxima hora en una parada seguida queda suprimida."
+      },
+      "fields": [
+        {
+          "key": "stop",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "A stop device of the integration. Leave empty for any stop.",
+            "fr": "Un appareil arrêt de l’intégration. Laissez vide pour n’importe quel arrêt.",
+            "de": "Ein Haltestellen-Gerät der Integration. Leer lassen für jede Haltestelle.",
+            "es": "Un dispositivo parada de la integración. Déjalo vacío para cualquier parada."
+          },
+          "required": false
+        }
+      ],
+      "variables": [
+        {
+          "key": "stop_name",
+          "type": "string",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          }
+        },
+        {
+          "key": "line",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "label": {
+            "en": "Destination",
+            "fr": "Destination",
+            "de": "Ziel",
+            "es": "Destino"
+          }
+        },
+        {
+          "key": "time",
+          "type": "string",
+          "label": {
+            "en": "Planned time (HH:MM)",
+            "fr": "Heure prévue (HH:MM)",
+            "de": "Geplante Zeit (HH:MM)",
+            "es": "Hora prevista (HH:MM)"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, bereit für eine Nachricht.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    },
+    {
+      "key": "line_disrupted",
+      "label": {
+        "en": "Naolib: line disrupted",
+        "fr": "Naolib : ligne perturbée",
+        "de": "Naolib: Linie gestört",
+        "es": "Naolib: línea alterada"
+      },
+      "description": {
+        "en": "A followed line becomes disrupted or heavily disrupted: an alert of Naolib under way (diversion, stops not served, interruption).",
+        "fr": "Une ligne suivie devient perturbée ou très perturbée : une alerte de Naolib en cours (déviation, arrêts non desservis, interruption).",
+        "de": "Eine verfolgte Linie wird gestört oder stark gestört: eine laufende Meldung von Naolib (Umleitung, nicht bediente Haltestellen, Unterbrechung).",
+        "es": "Una línea seguida pasa a alterada o muy alterada: una alerta de Naolib en curso (desvío, paradas sin servicio, interrupción)."
+      },
+      "fields": [
+        {
+          "key": "line",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "A line device of the integration. Leave empty for any line.",
+            "fr": "Un appareil ligne de l’intégration. Laissez vide pour n’importe quelle ligne.",
+            "de": "Ein Liniengerät der Integration. Leer lassen für jede Linie.",
+            "es": "Un dispositivo línea de la integración. Déjalo vacío para cualquier línea."
+          },
+          "required": false
+        }
+      ],
+      "variables": [
+        {
+          "key": "line_name",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "\"Tram 1\", \"Ligne C1\".",
+            "fr": "« Tram 1 », « Ligne C1 ».",
+            "de": "„Straßenbahn 1“, „Linie C1“.",
+            "es": "«Tranvía 1», «Línea C1»."
+          }
+        },
+        {
+          "key": "state",
+          "type": "string",
+          "label": {
+            "en": "State (code)",
+            "fr": "État (code)",
+            "de": "Zustand (Code)",
+            "es": "Estado (código)"
+          },
+          "description": {
+            "en": "normal, info, disrupted or major.",
+            "fr": "normal, info, disrupted ou major.",
+            "de": "normal, info, disrupted oder major.",
+            "es": "normal, info, disrupted o major."
+          }
+        },
+        {
+          "key": "title",
+          "type": "string",
+          "label": {
+            "en": "Title of the message",
+            "fr": "Titre du message",
+            "de": "Titel der Meldung",
+            "es": "Título del mensaje"
+          },
+          "description": {
+            "en": "Its header, or the first sentence of its text.",
+            "fr": "Son titre, ou la première phrase de son texte.",
+            "de": "Ihr Titel oder der erste Satz ihres Textes.",
+            "es": "Su título, o la primera frase de su texto."
+          }
+        },
+        {
+          "key": "message",
+          "type": "string",
+          "label": {
+            "en": "Text of the message",
+            "fr": "Texte du message",
+            "de": "Text der Meldung",
+            "es": "Texto del mensaje"
+          }
+        },
+        {
+          "key": "start",
+          "type": "string",
+          "label": {
+            "en": "Start (DD/MM HH:MM)",
+            "fr": "Début (JJ/MM HH:MM)",
+            "de": "Beginn (TT/MM HH:MM)",
+            "es": "Inicio (DD/MM HH:MM)"
+          }
+        },
+        {
+          "key": "end",
+          "type": "string",
+          "label": {
+            "en": "End (DD/MM HH:MM)",
+            "fr": "Fin (JJ/MM HH:MM)",
+            "de": "Ende (TT/MM HH:MM)",
+            "es": "Fin (DD/MM HH:MM)"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, bereit für eine Nachricht.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    },
+    {
+      "key": "line_restored",
+      "label": {
+        "en": "Naolib: back to normal",
+        "fr": "Naolib : fin de perturbation",
+        "de": "Naolib: wieder normal",
+        "es": "Naolib: fin de la incidencia"
+      },
+      "description": {
+        "en": "A followed line that was disrupted is back to normal: no disruption under way any more.",
+        "fr": "Une ligne suivie qui était perturbée revient à la normale : plus aucune perturbation en cours.",
+        "de": "Eine verfolgte Linie, die gestört war, ist wieder normal: keine laufende Störung mehr.",
+        "es": "Una línea seguida que estaba alterada vuelve a la normalidad: ya no hay incidencias en curso."
+      },
+      "fields": [
+        {
+          "key": "line",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "A line device of the integration. Leave empty for any line.",
+            "fr": "Un appareil ligne de l’intégration. Laissez vide pour n’importe quelle ligne.",
+            "de": "Ein Liniengerät der Integration. Leer lassen für jede Linie.",
+            "es": "Un dispositivo línea de la integración. Déjalo vacío para cualquier línea."
+          },
+          "required": false
+        }
+      ],
+      "variables": [
+        {
+          "key": "line_name",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "\"Tram 1\", \"Ligne C1\".",
+            "fr": "« Tram 1 », « Ligne C1 ».",
+            "de": "„Straßenbahn 1“, „Linie C1“.",
+            "es": "«Tranvía 1», «Línea C1»."
+          }
+        },
+        {
+          "key": "state",
+          "type": "string",
+          "label": {
+            "en": "New state",
+            "fr": "Nouvel état",
+            "de": "Neuer Zustand",
+            "es": "Nuevo estado"
+          },
+          "description": {
+            "en": "normal or info (a message under way, normal service).",
+            "fr": "normal ou info (un message en cours, service normal).",
+            "de": "normal oder info (eine aktuelle Meldung, normaler Betrieb).",
+            "es": "normal o info (un aviso en curso, servicio normal)."
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, bereit für eine Nachricht.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    },
+    {
+      "key": "traffic_message",
+      "label": {
+        "en": "Naolib: new traffic message",
+        "fr": "Naolib : nouveau message trafic",
+        "de": "Naolib: neue Verkehrsmeldung",
+        "es": "Naolib: nuevo aviso de tráfico"
+      },
+      "description": {
+        "en": "Naolib publishes a new alert about a followed line: works, diversion, stops not served, under way or coming.",
+        "fr": "La Naolib publie une nouvelle alerte sur une ligne suivie : travaux, déviation, arrêts non desservis, en cours ou à venir.",
+        "de": "Naolib veröffentlicht eine neue Meldung zu einer verfolgten Linie: Bauarbeiten, Umleitung, nicht bediente Haltestellen, aktuell oder demnächst.",
+        "es": "Naolib publica una nueva alerta sobre una línea seguida: obras, desvío, paradas sin servicio, en curso o próxima."
+      },
+      "fields": [
+        {
+          "key": "line",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "A line device of the integration. Leave empty for any line.",
+            "fr": "Un appareil ligne de l’intégration. Laissez vide pour n’importe quelle ligne.",
+            "de": "Ein Liniengerät der Integration. Leer lassen für jede Linie.",
+            "es": "Un dispositivo línea de la integración. Déjalo vacío para cualquier línea."
+          },
+          "required": false
+        },
+        {
+          "key": "kind",
+          "type": "multi_select",
+          "label": {
+            "en": "Kind",
+            "fr": "Type",
+            "de": "Art",
+            "es": "Tipo"
+          },
+          "description": {
+            "en": "Leave empty for every kind.",
+            "fr": "Laissez vide pour tous les types.",
+            "de": "Leer lassen für alle Arten.",
+            "es": "Déjalo vacío para todos los tipos."
+          },
+          "options": [
+            {
+              "value": "info",
+              "label": {
+                "en": "Information",
+                "fr": "Information",
+                "de": "Information",
+                "es": "Información"
+              }
+            },
+            {
+              "value": "disrupted",
+              "label": {
+                "en": "Disruption",
+                "fr": "Perturbation",
+                "de": "Störung",
+                "es": "Incidencia"
+              }
+            },
+            {
+              "value": "major",
+              "label": {
+                "en": "Heavy disruption",
+                "fr": "Forte perturbation",
+                "de": "Starke Störung",
+                "es": "Incidencia grave"
+              }
+            }
+          ],
+          "required": false
+        }
+      ],
+      "variables": [
+        {
+          "key": "line_name",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "\"Tram 1\", \"Ligne C1\".",
+            "fr": "« Tram 1 », « Ligne C1 ».",
+            "de": "„Straßenbahn 1“, „Linie C1“.",
+            "es": "«Tranvía 1», «Línea C1»."
+          }
+        },
+        {
+          "key": "kind",
+          "type": "string",
+          "label": {
+            "en": "Kind (code)",
+            "fr": "Type (code)",
+            "de": "Art (Code)",
+            "es": "Tipo (código)"
+          },
+          "description": {
+            "en": "info, disrupted or major.",
+            "fr": "info, disrupted ou major.",
+            "de": "info, disrupted oder major.",
+            "es": "info, disrupted o major."
+          }
+        },
+        {
+          "key": "title",
+          "type": "string",
+          "label": {
+            "en": "Title of the message",
+            "fr": "Titre du message",
+            "de": "Titel der Meldung",
+            "es": "Título del mensaje"
+          },
+          "description": {
+            "en": "Its header, or the first sentence of its text.",
+            "fr": "Son titre, ou la première phrase de son texte.",
+            "de": "Ihr Titel oder der erste Satz ihres Textes.",
+            "es": "Su título, o la primera frase de su texto."
+          }
+        },
+        {
+          "key": "message",
+          "type": "string",
+          "label": {
+            "en": "Text of the message",
+            "fr": "Texte du message",
+            "de": "Text der Meldung",
+            "es": "Texto del mensaje"
+          }
+        },
+        {
+          "key": "start",
+          "type": "string",
+          "label": {
+            "en": "Start (DD/MM HH:MM)",
+            "fr": "Début (JJ/MM HH:MM)",
+            "de": "Beginn (TT/MM HH:MM)",
+            "es": "Inicio (DD/MM HH:MM)"
+          }
+        },
+        {
+          "key": "end",
+          "type": "string",
+          "label": {
+            "en": "End (DD/MM HH:MM)",
+            "fr": "Fin (JJ/MM HH:MM)",
+            "de": "Ende (TT/MM HH:MM)",
+            "es": "Fin (DD/MM HH:MM)"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, bereit für eine Nachricht.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    }
+  ],
+  "scene_actions": [
+    {
+      "key": "get_next_departures",
+      "label": {
+        "en": "Naolib: next departures",
+        "fr": "Naolib : prochains départs",
+        "de": "Naolib: nächste Abfahrten",
+        "es": "Naolib: próximas salidas"
+      },
+      "description": {
+        "en": "The next two departures of a stop, the delay of the first one, and a sentence for a message.",
+        "fr": "Les deux prochains départs d’un arrêt, le retard du premier et une phrase pour un message.",
+        "de": "Die nächsten zwei Abfahrten einer Haltestelle, die Verspätung der ersten und ein Satz für eine Nachricht.",
+        "es": "Las dos próximas salidas de una parada, el retraso de la primera y una frase para un mensaje."
+      },
+      "timeout_seconds": 30,
+      "fields": [
+        {
+          "key": "stop",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "A stop device of the integration. Leave empty for the first stop.",
+            "fr": "Un appareil arrêt de l’intégration. Laissez vide pour le premier arrêt.",
+            "de": "Ein Haltestellen-Gerät der Integration. Leer lassen für die erste Haltestelle.",
+            "es": "Un dispositivo parada de la integración. Déjalo vacío para la primera parada."
+          },
+          "required": false
+        }
+      ],
+      "outputs": [
+        {
+          "key": "stop_name",
+          "type": "string",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          }
+        },
+        {
+          "key": "found",
+          "type": "boolean",
+          "label": {
+            "en": "Departure found",
+            "fr": "Départ trouvé",
+            "de": "Abfahrt gefunden",
+            "es": "Salida encontrada"
+          }
+        },
+        {
+          "key": "line",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "label": {
+            "en": "Destination",
+            "fr": "Destination",
+            "de": "Ziel",
+            "es": "Destino"
+          }
+        },
+        {
+          "key": "minutes",
+          "type": "number",
+          "label": {
+            "en": "Wait (min, -1 if none)",
+            "fr": "Attente (min, -1 si aucun)",
+            "de": "Wartezeit (Min., -1 wenn keine)",
+            "es": "Espera (min, -1 si no hay)"
+          }
+        },
+        {
+          "key": "time",
+          "type": "string",
+          "label": {
+            "en": "Expected time (HH:MM)",
+            "fr": "Heure estimée (HH:MM)",
+            "de": "Erwartete Zeit (HH:MM)",
+            "es": "Hora estimada (HH:MM)"
+          }
+        },
+        {
+          "key": "realtime",
+          "type": "boolean",
+          "label": {
+            "en": "Followed in real time",
+            "fr": "Suivi en temps réel",
+            "de": "In Echtzeit verfolgt",
+            "es": "Seguido en tiempo real"
+          }
+        },
+        {
+          "key": "delay_minutes",
+          "type": "number",
+          "label": {
+            "en": "Delay (min)",
+            "fr": "Retard (min)",
+            "de": "Verspätung (Min.)",
+            "es": "Retraso (min)"
+          }
+        },
+        {
+          "key": "following_minutes",
+          "type": "number",
+          "label": {
+            "en": "Wait for the following one (min)",
+            "fr": "Attente du suivant (min)",
+            "de": "Wartezeit der folgenden (Min.)",
+            "es": "Espera del siguiente (min)"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, der direkt in eine Nachricht passt.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    },
+    {
+      "key": "get_line_traffic",
+      "label": {
+        "en": "Naolib: traffic of a line",
+        "fr": "Naolib : trafic d’une ligne",
+        "de": "Naolib: Verkehrslage einer Linie",
+        "es": "Naolib: tráfico de una línea"
+      },
+      "description": {
+        "en": "The state of a line, its latest message and a sentence for a message.",
+        "fr": "L’état d’une ligne, son dernier message et une phrase pour un message.",
+        "de": "Der Zustand einer Linie, ihre letzte Meldung und ein Satz für eine Nachricht.",
+        "es": "El estado de una línea, su último mensaje y una frase para un mensaje."
+      },
+      "timeout_seconds": 30,
+      "fields": [
+        {
+          "key": "line",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          },
+          "description": {
+            "en": "A line device of the integration. Leave empty for the first line.",
+            "fr": "Un appareil ligne de l’intégration. Laissez vide pour la première ligne.",
+            "de": "Ein Linien-Gerät der Integration. Leer lassen für die erste Linie.",
+            "es": "Un dispositivo línea de la integración. Déjalo vacío para la primera línea."
+          },
+          "required": false
+        }
+      ],
+      "outputs": [
+        {
+          "key": "line_name",
+          "type": "string",
+          "label": {
+            "en": "Line",
+            "fr": "Ligne",
+            "de": "Linie",
+            "es": "Línea"
+          }
+        },
+        {
+          "key": "state",
+          "type": "string",
+          "label": {
+            "en": "State (code)",
+            "fr": "État (code)",
+            "de": "Zustand (Code)",
+            "es": "Estado (código)"
+          },
+          "description": {
+            "en": "normal, info, disrupted, major or unknown.",
+            "fr": "normal, info, disrupted, major ou unknown.",
+            "de": "normal, info, disrupted, major oder unknown.",
+            "es": "normal, info, disrupted, major o unknown."
+          }
+        },
+        {
+          "key": "state_label",
+          "type": "string",
+          "label": {
+            "en": "State",
+            "fr": "État",
+            "de": "Zustand",
+            "es": "Estado"
+          }
+        },
+        {
+          "key": "disrupted",
+          "type": "boolean",
+          "label": {
+            "en": "Disrupted",
+            "fr": "Perturbée",
+            "de": "Gestört",
+            "es": "Alterada"
+          }
+        },
+        {
+          "key": "message_count",
+          "type": "number",
+          "label": {
+            "en": "Traffic messages under way",
+            "fr": "Infos trafic en cours",
+            "de": "Aktuelle Verkehrsmeldungen",
+            "es": "Avisos de tráfico en curso"
+          }
+        },
+        {
+          "key": "title",
+          "type": "string",
+          "label": {
+            "en": "Title of the latest message",
+            "fr": "Titre du dernier message",
+            "de": "Titel der letzten Meldung",
+            "es": "Título del último mensaje"
+          }
+        },
+        {
+          "key": "message",
+          "type": "string",
+          "label": {
+            "en": "Text of the latest message",
+            "fr": "Texte du dernier message",
+            "de": "Text der letzten Meldung",
+            "es": "Texto del último mensaje"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          },
+          "description": {
+            "en": "A sentence ready to put in a message.",
+            "fr": "Une phrase prête à mettre dans un message.",
+            "de": "Ein Satz, der direkt in eine Nachricht passt.",
+            "es": "Una frase lista para poner en un mensaje."
+          }
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "key": "departures",
+      "label": {
+        "en": "Naolib departures",
+        "fr": "Départs Naolib",
+        "de": "Naolib Abfahrten",
+        "es": "Salidas Naolib"
+      },
+      "description": {
+        "en": "The next departures of a stop, corrected in real time.",
+        "fr": "Les prochains départs d’un arrêt, corrigés en temps réel.",
+        "de": "Die nächsten Abfahrten einer Haltestelle, in Echtzeit korrigiert.",
+        "es": "Las próximas salidas de una parada, corregidas en tiempo real."
+      },
+      "icon": "clock",
+      "settings": [
+        {
+          "key": "stop",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "Stop",
+            "fr": "Arrêt",
+            "de": "Haltestelle",
+            "es": "Parada"
+          },
+          "description": {
+            "en": "A stop device of the integration. Leave empty for the first stop, or when you tick devices in “Several stops” below.",
+            "fr": "Un appareil arrêt de l’intégration. Laissez vide pour le premier arrêt, ou si vous cochez des appareils dans « Plusieurs arrêts » ci-dessous.",
+            "de": "Ein Haltestellen-Gerät der Integration. Leer lassen für die erste Haltestelle oder wenn du unten unter „Mehrere Haltestellen“ Geräte ankreuzt.",
+            "es": "Un dispositivo de parada de la integración. Déjalo vacío para la primera parada, o si marcas dispositivos en «Varias paradas» más abajo."
+          },
+          "required": false
+        },
+        {
+          "key": "stops",
+          "type": "multi_select",
+          "source": "devices",
+          "label": {
+            "en": "Several stops",
+            "fr": "Plusieurs arrêts",
+            "de": "Mehrere Haltestellen",
+            "es": "Varias paradas"
+          },
+          "description": {
+            "en": "Stop devices shown together, instead of the stop above. Devices of one stop (one per line) are merged under its name.",
+            "fr": "Des appareils arrêts affichés ensemble, à la place de l’arrêt ci-dessus. Les appareils d’un même arrêt (un par ligne) sont réunis sous son nom.",
+            "de": "Haltestellen-Geräte, die zusammen angezeigt werden, statt der Haltestelle oben. Geräte derselben Haltestelle (eines pro Linie) werden unter ihrem Namen zusammengefasst.",
+            "es": "Dispositivos de parada mostrados juntos, en lugar de la parada de arriba. Los dispositivos de una misma parada (uno por línea) se reúnen bajo su nombre."
+          },
+          "required": false
+        },
+        {
+          "key": "stop_name",
+          "type": "string",
+          "label": {
+            "en": "Other stop",
+            "fr": "Autre arrêt",
+            "de": "Andere Haltestelle",
+            "es": "Otra parada"
+          },
+          "description": {
+            "en": "A stop name or its code (\"Find a stop\"), to show a stop that is not followed.",
+            "fr": "Un nom d’arrêt ou son code (« Chercher un arrêt »), pour afficher un arrêt non suivi.",
+            "de": "Ein Haltestellenname oder ihr Code („Haltestelle suchen“), um eine nicht verfolgte Haltestelle anzuzeigen.",
+            "es": "Un nombre de parada o su código («Buscar una parada»), para mostrar una parada no seguida."
+          },
+          "placeholder": {
+            "en": "Pirmil",
+            "fr": "Pirmil",
+            "de": "Pirmil",
+            "es": "Pirmil"
+          },
+          "required": false
+        },
+        {
+          "key": "line",
+          "type": "string",
+          "label": {
+            "en": "Line of the other stop",
+            "fr": "Ligne de l’autre arrêt",
+            "de": "Linie der anderen Haltestelle",
+            "es": "Línea de la otra parada"
+          },
+          "placeholder": {
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "es": "2"
+          },
+          "required": false
+        },
+        {
+          "key": "count",
+          "type": "number",
+          "label": {
+            "en": "Routes shown",
+            "fr": "Trajets affichés",
+            "de": "Angezeigte Fahrten",
+            "es": "Trayectos mostrados"
+          },
+          "description": {
+            "en": "One row per line and destination, with its next departures.",
+            "fr": "Une rangée par ligne et destination, avec ses prochains départs.",
+            "de": "Eine Zeile pro Linie und Ziel, mit ihren nächsten Abfahrten.",
+            "es": "Una fila por línea y destino, con sus próximas salidas."
+          },
+          "min": 1,
+          "max": 8,
+          "default": 6,
+          "required": false
+        }
+      ]
+    },
+    {
+      "key": "traffic",
+      "label": {
+        "en": "Naolib traffic",
+        "fr": "Trafic Naolib",
+        "de": "Naolib Verkehrslage",
+        "es": "Tráfico Naolib"
+      },
+      "description": {
+        "en": "The state of lines and their traffic messages.",
+        "fr": "L’état de lignes et leurs messages trafic.",
+        "de": "Der Zustand von Linien und ihre Verkehrsmeldungen.",
+        "es": "El estado de líneas y sus avisos de tráfico."
+      },
+      "icon": "alert-triangle",
+      "settings": [
+        {
+          "key": "lines",
+          "type": "string",
+          "label": {
+            "en": "Lines",
+            "fr": "Lignes",
+            "de": "Linien",
+            "es": "Líneas"
+          },
+          "description": {
+            "en": "Empty for the followed lines (the three tram lines when none is followed); otherwise up to 6, separated by commas.",
+            "fr": "Vide pour les lignes suivies (les trois lignes de tram si aucune ne l’est) ; sinon jusqu’à 6, séparées par des virgules.",
+            "de": "Leer für die verfolgten Linien (die drei Straßenbahnlinien, wenn keine verfolgt wird); sonst bis zu 6, durch Kommas getrennt.",
+            "es": "Vacío para las líneas seguidas (las tres líneas de tranvía si no se sigue ninguna); si no, hasta 6, separadas por comas."
+          },
+          "placeholder": {
+            "en": "1, 2, C1, 4",
+            "fr": "1, 2, C1, 4",
+            "de": "1, 2, C1, 4",
+            "es": "1, 2, C1, 4"
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

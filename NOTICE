@@ -1,0 +1,18 @@
+Gladys Naolib integration
+Copyright 2026 William Deren
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The timetable (GTFS) comes from the open data of Nantes Métropole
+(https://data.nantesmetropole.fr), and the real-time trip updates and service
+alerts (GTFS-RT) of Naolib, the public transport of Nantes Métropole, are
+read through the national access point
+https://transport.data.gouv.fr/datasets/reseau-de-transports-collectifs-naolib,
+under the Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/. Source: Naolib, Nantes
+Métropole. The widgets show the source (Naolib) and the time of each reading.
+The files under test/fixtures are extracts of these data, kept under the same
+licence.
+
+This community integration is not affiliated with, endorsed or sponsored by
+Naolib, Semitan or Nantes Métropole.

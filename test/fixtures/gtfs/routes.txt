@@ -1,0 +1,97 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+FR_NAOLIB:Line:1,FR_NAOLIB:Operator:1,1,François Mitterrand / Jamet - Beaujoire / Babinière,0,007a45,ffffff
+FR_NAOLIB:Line:1B,FR_NAOLIB:Operator:1,1B,François Mitterrand - Beaujoire / Ranzay,3,00a754,ffffff
+FR_NAOLIB:Line:2,FR_NAOLIB:Operator:1,2,Orvault Grand Val - Gare de Pont Rousseau,0,e53138,ffffff
+FR_NAOLIB:Line:3,FR_NAOLIB:Operator:1,3,Marcel Paul - Neustrie,0,0079bc,ffffff
+FR_NAOLIB:Line:4,FR_NAOLIB:Operator:1,4,Foch - Cathédrale - Porte de Vertou,3,ffcd1c,000000
+FR_NAOLIB:Line:5,FR_NAOLIB:Operator:1,5,Hangar à Bananes - Gare Sud,3,0bbbef,ffffff
+FR_NAOLIB:Line:C1,FR_NAOLIB:Operator:1,C1,Haluchère - Batignolles - Gare de Chantenay,3,0bbbef,ffffff
+FR_NAOLIB:Line:C2,FR_NAOLIB:Operator:1,C2,Le Cardo - Gare Sud,3,ee7402,ffffff
+FR_NAOLIB:Line:C3,FR_NAOLIB:Operator:1,C3,Bio Ouest Laënnec - Bd de Doulon,3,f7a600,000000
+FR_NAOLIB:Line:C4,FR_NAOLIB:Operator:1,C4,Les Sorinières - Greneraie,3,76b82a,ffffff
+FR_NAOLIB:Line:C6,FR_NAOLIB:Operator:1,C6,Chantrerie - Grandes Ecoles - Hermeland,3,a877b2,ffffff
+FR_NAOLIB:Line:C7,FR_NAOLIB:Operator:1,C7,Trianon / Clairais - Souillarderie,3,c8d300,000000
+FR_NAOLIB:Line:C8,FR_NAOLIB:Operator:1,C8,Marcel Paul - Saupin,3,c8d300,000000
+FR_NAOLIB:Line:C9,FR_NAOLIB:Operator:1,C9,Basse Goulaine / Chalonges - Pirmil,3,f5b5d3,000000
+FR_NAOLIB:Line:C20,FR_NAOLIB:Operator:1,C20,Ecole Centrale - Audencia - Gare Maritime,3,ffed00,000000
+FR_NAOLIB:Line:10,FR_NAOLIB:Operator:1,10,Gare de Chantenay - Bd de Doulon,3,ffed00,000000
+FR_NAOLIB:Line:11,FR_NAOLIB:Operator:1,11,Tertre - Perray,3,e8b975,000000
+FR_NAOLIB:Line:12,FR_NAOLIB:Operator:1,12,Jules Verne - Beauséjour,3,a1daf8,000000
+FR_NAOLIB:Line:23,FR_NAOLIB:Operator:1,23,Haluchère - Batignolles - Mendès France - Bellevue,3,0bbbef,ffffff
+FR_NAOLIB:Line:26,FR_NAOLIB:Operator:1,26,Jonelière - Hôtel de Région,3,009640,ffffff
+FR_NAOLIB:Line:27,FR_NAOLIB:Operator:1,27,La Herdrie - Pirmil,3,a1daf8,000000
+FR_NAOLIB:Line:28,FR_NAOLIB:Operator:1,28,Vertou - Pirmil,3,a1daf8,000000
+FR_NAOLIB:Line:30,FR_NAOLIB:Operator:1,30,Joliverie / Iles de Loire - Trentemoult,3,ffed00,000000
+FR_NAOLIB:Line:33,FR_NAOLIB:Operator:1,33,Robinière / L'Aufrère - Espace Diderot,3,f5b5d3,000000
+FR_NAOLIB:Line:36,FR_NAOLIB:Operator:1,36,Greneraie - Croix Jeannette,3,65c2c4,ffffff
+FR_NAOLIB:Line:38,FR_NAOLIB:Operator:1,38,Greneraie - Aéroport,3,009640,ffffff
+FR_NAOLIB:Line:40,FR_NAOLIB:Operator:1,40,Mendès France - Bellevue - Neustrie,3,ffed00,000000
+FR_NAOLIB:Line:42,FR_NAOLIB:Operator:1,42,Vertou - Pirmil,3,c8d300,000000
+FR_NAOLIB:Line:47,FR_NAOLIB:Operator:1,47,Pégers / Grande Noëlle - Vertou,3,bca3ce,ffffff
+FR_NAOLIB:Line:50,FR_NAOLIB:Operator:1,50,Basse-Indre - Porte de La Chapelle,3,ffed00,000000
+FR_NAOLIB:Line:59,FR_NAOLIB:Operator:1,59,Mendès France - Bellevue - Bout des Landes,3,f5b5d3,000000
+FR_NAOLIB:Line:60,FR_NAOLIB:Operator:1,60,Quintaine - Vertou,3,ffed00,000000
+FR_NAOLIB:Line:66,FR_NAOLIB:Operator:1,66,Babinière - Ecole Centrale - Audencia,3,2581c4,ffffff
+FR_NAOLIB:Line:67,FR_NAOLIB:Operator:1,67,Le Cellier - Centre de Thouaré,3,2581c4,ffffff
+FR_NAOLIB:Line:69,FR_NAOLIB:Operator:1,69,Sautron - Orvault Morlière,3,d39e46,ffffff
+FR_NAOLIB:Line:71,FR_NAOLIB:Operator:1,71,Bac de Couëron - Hauts de Couëron,3,c8d300,000000
+FR_NAOLIB:Line:75,FR_NAOLIB:Operator:1,75,Charbonneau - Facultés,3,e8b975,000000
+FR_NAOLIB:Line:77,FR_NAOLIB:Operator:1,77,Sables d'Or - Haluchère - Batignolles,3,a1daf8,000000
+FR_NAOLIB:Line:78,FR_NAOLIB:Operator:1,78,Bac du Pellerin - Neustrie,3,f7a600,000000
+FR_NAOLIB:Line:79,FR_NAOLIB:Operator:1,79,Orvault - Beauséjour,3,f5b5d3,000000
+FR_NAOLIB:Line:80,FR_NAOLIB:Operator:1,80,Chassay / Bellevue - Fac de Droit,3,ffed00,000000
+FR_NAOLIB:Line:81,FR_NAOLIB:Operator:1,81,Mendès France - Bellevue - Gare Maritime,3,65c2c4,ffffff
+FR_NAOLIB:Line:85,FR_NAOLIB:Operator:1,85,Souchais - Haluchère - Batignolles,3,f5b5d3,000000
+FR_NAOLIB:Line:86,FR_NAOLIB:Operator:1,86,La Chapelle Aulnay - Bout des Pavés,3,0bbbef,ffffff
+FR_NAOLIB:Line:87,FR_NAOLIB:Operator:1,87,Le Halleray - Toutes Aides,3,f7a600,000000
+FR_NAOLIB:Line:88,FR_NAOLIB:Operator:1,88,Château d'Aux - Neustrie,3,a877b2,ffffff
+FR_NAOLIB:Line:89,FR_NAOLIB:Operator:1,89,Le Cardo - Beauséjour,3,76b82a,ffffff
+FR_NAOLIB:Line:91,FR_NAOLIB:Operator:1,91,Couëron Bougon - Mendès France - Bellevue,3,009640,ffffff
+FR_NAOLIB:Line:95,FR_NAOLIB:Operator:1,95,Bois St-Lys - Haluchère - Batignolles,3,c8d300,000000
+FR_NAOLIB:Line:96,FR_NAOLIB:Operator:1,96,Coutancière - Bout des Pavés,3,f7a600,000000
+FR_NAOLIB:Line:97,FR_NAOLIB:Operator:1,97,Vertou - Trentemoult,3,bca3ce,ffffff
+FR_NAOLIB:Line:98,FR_NAOLIB:Operator:1,98,St-Léger-les-Vignes / Brains - Neustrie,3,f7a600,000000
+FR_NAOLIB:Line:E1,FR_NAOLIB:Operator:1,E1,Couëron Océan - Gare Maritime,3,e30613,ffffff
+FR_NAOLIB:Line:E4,FR_NAOLIB:Operator:1,E4,Porte de Vertou - Vertou,3,e30613,ffffff
+FR_NAOLIB:Line:E5,FR_NAOLIB:Operator:1,E5,Carquefou - Fac de Droit,3,e30613,ffffff
+FR_NAOLIB:Line:E8,FR_NAOLIB:Operator:1,E8,La Cochère - Greneraie,3,e30613,ffffff
+FR_NAOLIB:Line:NA,FR_NAOLIB:Operator:1,NA,Aéroport - Hôtel Dieu,3,a1daf8,000000
+FR_NAOLIB:Line:TE1,FR_NAOLIB:Operator:1,TE1,Greneraie - Allende,3,502391,ffffff
+FR_NAOLIB:Line:TE2,FR_NAOLIB:Operator:1,TE2,Bac d'Indret - Château d'Aux,3,2581c4,ffffff
+FR_NAOLIB:Line:TE3,FR_NAOLIB:Operator:1,TE3,Hôpital Laënnec - Bio Ouest,3,2581c4,ffffff
+FR_NAOLIB:Line:N1,FR_NAOLIB:Operator:1,N1,Trentemoult Sablières - Gare Maritime,4,2aaab6,ffffff
+FR_NAOLIB:Line:N2,FR_NAOLIB:Operator:1,N2,Trentemoult Sablières - Hangar à Bananes,4,2aaab6,ffffff
+FR_NAOLIB:Line:N3,FR_NAOLIB:Operator:1,N3,Port Boyer Navibus - Petit Port-Facultés,4,2aaab6,ffffff
+FR_NAOLIB:Line:NC,FR_NAOLIB:Operator:1,NC,Chantrerie Grandes Ecoles - Ligne de nuit Chantrerie,3,ffffff,232c77
+FR_NAOLIB:Line:NN,FR_NAOLIB:Operator:1,NN,Porte de la Chapelle - Hangar à Bananes,3,f91aff,ffffff
+FR_NAOLIB:Line:NO,FR_NAOLIB:Operator:1,NO,Beauséjour - Hangar à Bananes,3,fffa3e,232c77
+FR_NAOLIB:Line:NS,FR_NAOLIB:Operator:1,NS,Bourdonnières - Hangar à Bananes,3,00ffc2,232c77
+FR_NAOLIB:Line:LCE,FR_NAOLIB:Operator:1,LCE,Cotalard - Léo Lagrange,3,00a754,ffffff
+FR_NAOLIB:Line:CNO,FR_NAOLIB:Operator:1,CNO,René Cassin - Pont Pilet,3,2581c4,ffffff
+FR_NAOLIB:Line:101,FR_NAOLIB:Operator:1,101,Mairie de Couëron - Sinière,3,a9162e,ffffff
+FR_NAOLIB:Line:102,FR_NAOLIB:Operator:1,102,Chalonges - René Bernier,3,a9162e,ffffff
+FR_NAOLIB:Line:107,FR_NAOLIB:Operator:1,107,Bournière - Reinetière,3,a9162e,ffffff
+FR_NAOLIB:Line:109,FR_NAOLIB:Operator:1,109,Ferrière - Couchant,3,a9162e,ffffff
+FR_NAOLIB:Line:111,FR_NAOLIB:Operator:1,111,ADAPEI à Tillay - Lycée Appert,3,a9162e,ffffff
+FR_NAOLIB:Line:112,FR_NAOLIB:Operator:1,112,St Blaise - Savarières,3,a9162e,ffffff
+FR_NAOLIB:Line:117,FR_NAOLIB:Operator:1,117,Le Halleray - Reinetière,3,a9162e,ffffff
+FR_NAOLIB:Line:118,FR_NAOLIB:Operator:1,118,Pirmil - St-Léger-les-Vignes,3,a9162e,ffffff
+FR_NAOLIB:Line:119,FR_NAOLIB:Operator:1,119,Mairie d'Orvault - Angevinière,3,a9162e,ffffff
+FR_NAOLIB:Line:122,FR_NAOLIB:Operator:1,122,Savarières - St Blaise,3,a9162e,ffffff
+FR_NAOLIB:Line:127,FR_NAOLIB:Operator:1,127,Colinière - Monteverdi,3,a9162e,ffffff
+FR_NAOLIB:Line:129,FR_NAOLIB:Operator:1,129,Les Anges - Angevinière,3,a9162e,ffffff
+FR_NAOLIB:Line:131,FR_NAOLIB:Operator:1,131,Bac de Couëron - Mendès France Bellevue,3,a9162e,ffffff
+FR_NAOLIB:Line:137,FR_NAOLIB:Operator:1,137,Chinon / Monteverdi - Toutes Aides,3,a9162e,ffffff
+FR_NAOLIB:Line:139,FR_NAOLIB:Operator:1,139,Sautron - Angevinière,3,a9162e,ffffff
+FR_NAOLIB:Line:142,FR_NAOLIB:Operator:1,142,CAT Vertonne - Porte de Vertou,3,a9162e,ffffff
+FR_NAOLIB:Line:147,FR_NAOLIB:Operator:1,147,Bournière - Toutes Aides,3,a9162e,ffffff
+FR_NAOLIB:Line:149,FR_NAOLIB:Operator:1,149,Cheverny - Sautron,3,a9162e,ffffff
+FR_NAOLIB:Line:152,FR_NAOLIB:Operator:1,152,La Herdrie - Pirmil,3,a9162e,ffffff
+FR_NAOLIB:Line:157,FR_NAOLIB:Operator:1,157,Toutes Aides - Le Halleray,3,a9162e,ffffff
+FR_NAOLIB:Line:159,FR_NAOLIB:Operator:1,159,Sautron - Angevinière,3,a9162e,ffffff
+FR_NAOLIB:Line:162,FR_NAOLIB:Operator:1,162,La Herdrie - Pirmil,3,a9162e,ffffff
+FR_NAOLIB:Line:169,FR_NAOLIB:Operator:1,169,Sautron - Thébaudières,3,a9162e,ffffff
+FR_NAOLIB:Line:172,FR_NAOLIB:Operator:1,172,René Bernier - Pirmil,3,a9162e,ffffff
+FR_NAOLIB:Line:179,FR_NAOLIB:Operator:1,179,Les Anges - Orvault-Morlière,3,a9162e,ffffff
+FR_NAOLIB:Line:189,FR_NAOLIB:Operator:1,189,Pont Marchand - Angevinière,3,a9162e,ffffff
+FR_NAOLIB:Line:192,FR_NAOLIB:Operator:1,192,Jean Monnet - Porte de Vertou,3,a9162e,ffffff

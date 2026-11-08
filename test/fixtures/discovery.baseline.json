@@ -1,0 +1,531 @@
+{
+  "version": "0.1.0",
+  "devices": {
+    "stopWithLine": {
+      "external_id": "ext:naolib:stop:commerce_1_beaujoire",
+      "should_poll": false,
+      "params": ["NAOLIB_STOP", "NAOLIB_LINE", "NAOLIB_DIRECTION"],
+      "features": [
+        {
+          "external_id": "ext:naolib:stop:commerce_1_beaujoire:next",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:commerce_1_beaujoire:wait",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 180,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:commerce_1_beaujoire:following",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 180,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:commerce_1_beaujoire:delay",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 120,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    },
+    "stop": {
+      "external_id": "ext:naolib:stop:gare-nord-jardin-des-plantes",
+      "should_poll": false,
+      "params": ["NAOLIB_STOP"],
+      "features": [
+        {
+          "external_id": "ext:naolib:stop:gare-nord-jardin-des-plantes:next",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:gare-nord-jardin-des-plantes:wait",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 180,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:gare-nord-jardin-des-plantes:following",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 180,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:stop:gare-nord-jardin-des-plantes:delay",
+          "category": "duration",
+          "type": "integer",
+          "unit": "minutes",
+          "min": 0,
+          "max": 120,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    },
+    "busLine": {
+      "external_id": "ext:naolib:line:c1",
+      "should_poll": false,
+      "params": ["NAOLIB_LINE"],
+      "features": [
+        {
+          "external_id": "ext:naolib:line:c1:status",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:line:c1:messages",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 20,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    },
+    "tramLine": {
+      "external_id": "ext:naolib:line:1",
+      "should_poll": false,
+      "params": ["NAOLIB_LINE"],
+      "features": [
+        {
+          "external_id": "ext:naolib:line:1:status",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:line:1:messages",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 20,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    },
+    "namedLine": {
+      "external_id": "ext:naolib:line:n1",
+      "should_poll": false,
+      "params": ["NAOLIB_LINE"],
+      "features": [
+        {
+          "external_id": "ext:naolib:line:n1:status",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:naolib:line:n1:messages",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 20,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    }
+  },
+  "manifest": {
+    "actions": [
+      "test_connection",
+      "search_stop",
+      "add_stop",
+      "remove_stop",
+      "list_stops",
+      "diagnostic"
+    ],
+    "config_schema": [
+      {
+        "key": "intro",
+        "type": "section"
+      },
+      {
+        "key": "stop_1_section",
+        "type": "section"
+      },
+      {
+        "key": "stop_1",
+        "type": "string"
+      },
+      {
+        "key": "stop_1_line",
+        "type": "string"
+      },
+      {
+        "key": "stop_1_direction",
+        "type": "string"
+      },
+      {
+        "key": "stop_2_section",
+        "type": "section"
+      },
+      {
+        "key": "stop_2",
+        "type": "string"
+      },
+      {
+        "key": "stop_2_line",
+        "type": "string"
+      },
+      {
+        "key": "stop_2_direction",
+        "type": "string"
+      },
+      {
+        "key": "stop_3_section",
+        "type": "section"
+      },
+      {
+        "key": "stop_3",
+        "type": "string"
+      },
+      {
+        "key": "stop_3_line",
+        "type": "string"
+      },
+      {
+        "key": "stop_3_direction",
+        "type": "string"
+      },
+      {
+        "key": "lines_section",
+        "type": "section"
+      },
+      {
+        "key": "lines",
+        "type": "string"
+      },
+      {
+        "key": "options_section",
+        "type": "section"
+      },
+      {
+        "key": "interval",
+        "type": "select"
+      },
+      {
+        "key": "language",
+        "type": "select"
+      }
+    ],
+    "scene_triggers": [
+      {
+        "key": "departure_soon",
+        "fields": [
+          {
+            "key": "stop",
+            "options": []
+          },
+          {
+            "key": "minutes",
+            "options": ["2", "3", "5", "10", "15", "20"]
+          }
+        ],
+        "variables": [
+          {
+            "key": "stop_name",
+            "type": "string"
+          },
+          {
+            "key": "line",
+            "type": "string"
+          },
+          {
+            "key": "destination",
+            "type": "string"
+          },
+          {
+            "key": "time",
+            "type": "string"
+          },
+          {
+            "key": "delay_minutes",
+            "type": "number"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "departure_cancelled",
+        "fields": [
+          {
+            "key": "stop",
+            "options": []
+          }
+        ],
+        "variables": [
+          {
+            "key": "stop_name",
+            "type": "string"
+          },
+          {
+            "key": "line",
+            "type": "string"
+          },
+          {
+            "key": "destination",
+            "type": "string"
+          },
+          {
+            "key": "time",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "line_disrupted",
+        "fields": [
+          {
+            "key": "line",
+            "options": []
+          }
+        ],
+        "variables": [
+          {
+            "key": "line_name",
+            "type": "string"
+          },
+          {
+            "key": "state",
+            "type": "string"
+          },
+          {
+            "key": "title",
+            "type": "string"
+          },
+          {
+            "key": "message",
+            "type": "string"
+          },
+          {
+            "key": "start",
+            "type": "string"
+          },
+          {
+            "key": "end",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "line_restored",
+        "fields": [
+          {
+            "key": "line",
+            "options": []
+          }
+        ],
+        "variables": [
+          {
+            "key": "line_name",
+            "type": "string"
+          },
+          {
+            "key": "state",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "traffic_message",
+        "fields": [
+          {
+            "key": "line",
+            "options": []
+          },
+          {
+            "key": "kind",
+            "options": ["info", "disrupted", "major"]
+          }
+        ],
+        "variables": [
+          {
+            "key": "line_name",
+            "type": "string"
+          },
+          {
+            "key": "kind",
+            "type": "string"
+          },
+          {
+            "key": "title",
+            "type": "string"
+          },
+          {
+            "key": "message",
+            "type": "string"
+          },
+          {
+            "key": "start",
+            "type": "string"
+          },
+          {
+            "key": "end",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "scene_actions": [
+      {
+        "key": "get_next_departures",
+        "fields": ["stop"],
+        "outputs": [
+          {
+            "key": "stop_name",
+            "type": "string"
+          },
+          {
+            "key": "found",
+            "type": "boolean"
+          },
+          {
+            "key": "line",
+            "type": "string"
+          },
+          {
+            "key": "destination",
+            "type": "string"
+          },
+          {
+            "key": "minutes",
+            "type": "number"
+          },
+          {
+            "key": "time",
+            "type": "string"
+          },
+          {
+            "key": "realtime",
+            "type": "boolean"
+          },
+          {
+            "key": "delay_minutes",
+            "type": "number"
+          },
+          {
+            "key": "following_minutes",
+            "type": "number"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "get_line_traffic",
+        "fields": ["line"],
+        "outputs": [
+          {
+            "key": "line_name",
+            "type": "string"
+          },
+          {
+            "key": "state",
+            "type": "string"
+          },
+          {
+            "key": "state_label",
+            "type": "string"
+          },
+          {
+            "key": "disrupted",
+            "type": "boolean"
+          },
+          {
+            "key": "message_count",
+            "type": "number"
+          },
+          {
+            "key": "title",
+            "type": "string"
+          },
+          {
+            "key": "message",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "widgets": [
+      {
+        "key": "departures",
+        "settings": ["stop", "stops", "stop_name", "line", "count"],
+        "options": {}
+      },
+      {
+        "key": "traffic",
+        "settings": ["lines"],
+        "options": {}
+      }
+    ]
+  }
+}
